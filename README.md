@@ -8,7 +8,7 @@ Assign the index of closest fine grid to coarse grid.
 
 If Coarse is sea but Fine is land, we assign nearby index to it.
 
-Some model set variables within land domain 0 instead of _FillValue, we have to identify if the 0s is real value of certain variable (like velocity) or permanent land. 
+Some models set variables within land domain 0 instead of _FillValue, we have to identify if the 0s are real values of certain variable (like velocity) or permanent land. 
 
 目的：用涡分辨（0.1°）网格的海盆指标给粗网格（~1°）规划统一海盆。
 
