@@ -7,7 +7,7 @@ begin
 
 ;=======================================  Variables Define =========================================
 
- DIRs_in = (/ "/nexsan/people/fwang/CMIP5/CanESM2/run1/data/", "/nexsan/people/fwang/CMIP5/CanESM2/"/)
+ DIRs_in = (/ "~/CanESM2/run1/data/", "~/CMIP5/CanESM2/"/)
  ncs     = (/ "vo_Omon_CanESM2_historical_r1i1p1_185001-186012.nc", "BASIN_CanESM2_vo.nc"/)
  vars = (/ "vo", "ind"/)
 
