@@ -7,7 +7,7 @@ begin
 
 ;--------------------------------------=  Variables Define ----------------------------------------=
 
- DIRs_in = (/ "/nexsan/people/fwang/CMIP5/CanESM2/" /)
+ DIRs_in = (/ "~/CMIP5/CanESM2/" /)
 
  count0 = 1
  do while(count0.lt.100)
@@ -15,7 +15,6 @@ begin
    ncs     = (/ "BASIN_CanESM2_vo_step"+count0+".nc" /)
    vars = (/ "ind"/)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;      SOSE         ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
    nc0  = DIRs_in(0) + ncs(0)
    print("Now,the nc is: "+nc0)
    fin0 = addfile(nc0,"r")
