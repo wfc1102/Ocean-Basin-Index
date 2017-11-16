@@ -7,8 +7,8 @@ begin
 
 ;---------------------------------------  Variables Define -----------------------------------------
 
- DIRs_in = (/ "./", "/nexsan/people/fwang/CMIP5/CanESM2/run1/data/" /)
- DIRs_out= (/ "/nexsan/people/fwang/CMIP5/CanESM2/" /)
+ DIRs_in = (/ "./", "~/CMIP5/CanESM2/run1/data/" /)
+ DIRs_out= (/ "~/CMIP5/CanESM2/" /)
  ncs     = (/ "BASIN_LICOM.nc", "vo_Omon_CanESM2_historical_r1i1p1_185001-186012.nc" /)
  vars    = (/ "ind", "vo" /)
 
